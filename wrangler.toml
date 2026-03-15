@@ -1,0 +1,9 @@
+name = "jiandaoyun-proxy"
+main = "src/worker.js"
+compatibility_date = "2026-03-15"
+
+routes = [
+  { pattern = "jiandaoyun.lzc2002.top/*", zone_name = "lzc2002.top" }
+]
+
+workers_dev = false
