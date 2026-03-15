@@ -1,4 +1,4 @@
-name = "jiandaoyun-proxy"
+name = 'jiandaoyun-proxy-worker'
 main = "src/worker.js"
 compatibility_date = "2026-03-15"
 
@@ -7,3 +7,8 @@ routes = [
 ]
 
 workers_dev = false
+
+[observability]
+[observability.logs]
+enabled = true
+invocation_logs = true
