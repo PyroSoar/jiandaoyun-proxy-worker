@@ -1,12 +1,12 @@
 name = 'jiandaoyun-proxy-worker'
 main = "src/worker.js"
 compatibility_date = "2026-03-15"
+workers_dev = false
 
 [[routes]]
 pattern = "jdy.lzc2002.top"
 custom_domain = true
 
-workers_dev = false
 
 [observability]
 [observability.logs]
