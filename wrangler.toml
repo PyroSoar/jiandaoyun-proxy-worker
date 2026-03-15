@@ -1,7 +1,7 @@
 name = "jiandaoyun-proxy-worker"
 main = "src/worker.js"
 compatibility_date = "2026-03-15"
-workers_dev = false
+workers_dev = true
 
 # 自定义域名路由 —— 注意 pattern 要带 /* 并且 custom_domain = true
 [[routes]]
